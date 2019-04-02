@@ -1,13 +1,15 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>FROM TIME TO TIME</title>
+		<script type="text/javascript" charset="utf-8" src="../js/home_page.js"></script>
 	</head>
-	<body>
+	<body onload="onBodyLoad()">
 		<div id="content">
 			<div id="time_container"></div>
-			<button id="sofia_timezone">Sofia</button>
-			<button id="rejkjavik_timezone">Rejkjavik</button>
-			<button id="la_tour_de_pam_timezone">La tour de Pam</button>
+			<button id="sofia_timezone" onclick="onSofiaButtonClicked()">Sofia</button>
+			<button id="rejkjavik_timezone" onclick="onRejkjavikButtonClicked()" >Rejkjavik</button>
+			<button id="la_tour_de_pam_timezone" onclick="onLaTourDePamButtonClicked()" >La tour de Pam</button>
 		</div>
 	</body>
 </html>
